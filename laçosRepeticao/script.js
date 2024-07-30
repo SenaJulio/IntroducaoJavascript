@@ -5,7 +5,7 @@ while(contador <= 10){
     contador = contador + 1;
 }
 
-
+ /*     variavel      +    condição    + incremento                                             */
 for(let matematico = 1; matematico <= 10; matematico++){
     console.log(matematico);
 
