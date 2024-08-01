@@ -1,7 +1,7 @@
 function clicou(params) {
     let title = document.querySelector('#titulo')
     let input = document.querySelector('.campo')
-    if (input.value != "") {
+    if (input.button === "blue") {
         title.innerHTML = "Opa, "  + input.value;
         input.value = "";
     }else{
@@ -13,4 +13,4 @@ function name(params) {
     
 }
 let button = document.querySelector("button");
-button.addEventListener("click", clicou);
+button.addEventListener("click", clicou)
