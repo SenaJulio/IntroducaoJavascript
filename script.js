@@ -32,3 +32,18 @@ function ocultar() {
     let title = document.querySelector("#titulo");
     title.style.display = 'none';
 }
+
+/* function mudarFundo(){
+    let title = document.querySelector("#titulo")
+    title.classList.add("verde");
+    title.classList.remove("azul")
+
+
+    verificação
+    if(title.classlist.contains("azul")=== true)
+}
+
+title.style.color = 'pink';
+title.style.diplay= "none"
+
+*/ 
