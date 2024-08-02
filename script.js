@@ -47,3 +47,6 @@ title.style.color = 'pink';
 title.style.diplay= "none"
 
 */ 
+function name(params) {
+    
+}
