@@ -3,6 +3,13 @@ let btn  = document.querySelector( 'button');
 btn.addEventListener('click',() => {
     console.log('clicou');
 })
+let btm = document.querySelector('h1')
+btm.addEventListener('click',()=>{
+    console.log('clicou');
+})
+
+
+
 btn.addEventListener('mousedown', () =>{
     console.log('Mouse Down');
 })
