@@ -49,3 +49,17 @@ function loadUsers() {
 // PUT = Quando quero atualizar uma informação no servidor
 // DELETE = Quando quero excluir uma informação no servidor
 //
+function loadUsers() {
+    let url = 'https://jsonplaceholder.typicode.com/users'
+    fetch(url)
+        .then(res => res.json())
+        .then(users => { 
+          let ul = document.querySelector('ul')
+
+          for(let user of users){
+            let li = document.createElement('li');
+            li.innerHTML = user.name + ' (cidade:' + user.address.city + ')';
+            ul.appendChild(li);
+          }
+        });
+  }
